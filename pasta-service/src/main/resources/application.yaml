@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: pasta-service
+
+server:
+  port: 8108
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8998/eureka/
