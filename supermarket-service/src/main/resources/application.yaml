@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: supermarket-service
+
+server:
+  port: 8109
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8998/eureka/
